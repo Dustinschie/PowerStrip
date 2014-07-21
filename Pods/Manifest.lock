@@ -1,0 +1,17 @@
+PODS:
+  - ASOAnimatedButton (1.0.1):
+    - ASOAnimatedButton/BounceButton
+    - ASOAnimatedButton/TwoStateButton
+  - ASOAnimatedButton/BounceButton (1.0.1)
+  - ASOAnimatedButton/TwoStateButton (1.0.1)
+  - MSPageViewController (1.0.1)
+
+DEPENDENCIES:
+  - ASOAnimatedButton
+  - MSPageViewController (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  ASOAnimatedButton: 92bb13622b2a7f0f0b106525e21c7b2d21d6ab94
+  MSPageViewController: 14496f16df16db1129caabaffa136a51f11961d2
+
+COCOAPODS: 0.33.1

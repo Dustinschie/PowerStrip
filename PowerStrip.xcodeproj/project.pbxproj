@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5837DC21197CCEAF009082A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC20197CCEAF009082A8 /* Main.storyboard */; };
+		5837DC23197CCEC9009082A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC22197CCEC9009082A8 /* InfoPlist.strings */; };
+		5837DC26197CCFDF009082A8 /* tap-mellow.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC24197CCFDF009082A8 /* tap-mellow.aif */; };
+		5837DC27197CCFDF009082A8 /* tap-metallic.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC25197CCFDF009082A8 /* tap-metallic.aif */; };
+		58494E64197A1D8A007105DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E63197A1D8A007105DB /* Foundation.framework */; };
+		58494E66197A1D8A007105DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E65197A1D8A007105DB /* CoreGraphics.framework */; };
+		58494E68197A1D8A007105DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E67197A1D8A007105DB /* UIKit.framework */; };
+		58494E70197A1D8A007105DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58494E6F197A1D8A007105DB /* main.m */; };
+		58494E74197A1D8A007105DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58494E73197A1D8A007105DB /* AppDelegate.m */; };
+		58494E83197A1D8A007105DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E82197A1D8A007105DB /* XCTest.framework */; };
+		58494E84197A1D8A007105DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E63197A1D8A007105DB /* Foundation.framework */; };
+		58494E85197A1D8A007105DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E67197A1D8A007105DB /* UIKit.framework */; };
+		58494E8D197A1D8A007105DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58494E8B197A1D8A007105DB /* InfoPlist.strings */; };
+		58494E8F197A1D8A007105DB /* PowerStripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58494E8E197A1D8A007105DB /* PowerStripTests.m */; };
+		585DEF4E197B332F0041E0A2 /* PVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585DEF4D197B332F0041E0A2 /* PVController.m */; };
+		585DEF50197B3A0A0041E0A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585DEF4F197B3A0A0041E0A2 /* Images.xcassets */; };
+		585DEF53197B3CFD0041E0A2 /* SwitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585DEF52197B3CFD0041E0A2 /* SwitchesViewController.m */; };
+		585DEF55197B739E0041E0A2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585DEF54197B739E0041E0A2 /* iAd.framework */; };
+		58B50FED197B90F40022AC21 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FEB197B90F40022AC21 /* InfoCell.m */; };
+		58B50FEE197B90F40022AC21 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B50FEC197B90F40022AC21 /* InfoCell.xib */; };
+		58B50FF1197B96890022AC21 /* InfoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FF0197B96890022AC21 /* InfoTableVC.m */; };
+		58B50FF7197CA39B0022AC21 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FF6197CA39B0022AC21 /* CardView.m */; };
+		58B50FFB197CBDC50022AC21 /* UIView+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FFA197CBDC50022AC21 /* UIView+Blur.m */; };
+		58B50FFE197CC4530022AC21 /* InfoOutletSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FFD197CC4530022AC21 /* InfoOutletSettingsVC.m */; };
+		58B51002197CC8D90022AC21 /* tap-professional.aif in Resources */ = {isa = PBXBuildFile; fileRef = 58B51000197CC8D90022AC21 /* tap-professional.aif */; };
+		58B51003197CC8D90022AC21 /* tap-resonant.aif in Resources */ = {isa = PBXBuildFile; fileRef = 58B51001197CC8D90022AC21 /* tap-resonant.aif */; };
+		58B51005197CC9A70022AC21 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B51004197CC9A70022AC21 /* AVFoundation.framework */; };
+		79CD28604A554B8BA434AF4D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D2E9E951BD44DA6A50CB471 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58494E86197A1D8A007105DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58494E58197A1D8A007105DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58494E5F197A1D8A007105DB;
+			remoteInfo = PowerStrip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2E9E951BD44DA6A50CB471 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5837DC20197CCEAF009082A8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5837DC22197CCEC9009082A8 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5837DC24197CCFDF009082A8 /* tap-mellow.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-mellow.aif"; sourceTree = "<group>"; };
+		5837DC25197CCFDF009082A8 /* tap-metallic.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-metallic.aif"; sourceTree = "<group>"; };
+		58494E60197A1D8A007105DB /* PowerStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58494E63197A1D8A007105DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		58494E65197A1D8A007105DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		58494E67197A1D8A007105DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		58494E6B197A1D8A007105DB /* PowerStrip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerStrip-Info.plist"; sourceTree = "<group>"; };
+		58494E6F197A1D8A007105DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58494E71197A1D8A007105DB /* PowerStrip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PowerStrip-Prefix.pch"; sourceTree = "<group>"; };
+		58494E72197A1D8A007105DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58494E73197A1D8A007105DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58494E81197A1D8A007105DB /* PowerStripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerStripTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58494E82197A1D8A007105DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		58494E8A197A1D8A007105DB /* PowerStripTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PowerStripTests-Info.plist"; sourceTree = "<group>"; };
+		58494E8C197A1D8A007105DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		58494E8E197A1D8A007105DB /* PowerStripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PowerStripTests.m; sourceTree = "<group>"; };
+		585DEF4C197B332F0041E0A2 /* PVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVController.h; sourceTree = "<group>"; };
+		585DEF4D197B332F0041E0A2 /* PVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVController.m; sourceTree = "<group>"; };
+		585DEF4F197B3A0A0041E0A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		585DEF51197B3CFD0041E0A2 /* SwitchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchesViewController.h; sourceTree = "<group>"; };
+		585DEF52197B3CFD0041E0A2 /* SwitchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchesViewController.m; sourceTree = "<group>"; };
+		585DEF54197B739E0041E0A2 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		58B50FEA197B90F40022AC21 /* InfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoCell.h; sourceTree = "<group>"; };
+		58B50FEB197B90F40022AC21 /* InfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoCell.m; sourceTree = "<group>"; };
+		58B50FEC197B90F40022AC21 /* InfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoCell.xib; sourceTree = "<group>"; };
+		58B50FEF197B96890022AC21 /* InfoTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableVC.h; sourceTree = "<group>"; };
+		58B50FF0197B96890022AC21 /* InfoTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableVC.m; sourceTree = "<group>"; };
+		58B50FF5197CA39B0022AC21 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		58B50FF6197CA39B0022AC21 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		58B50FF9197CBDC50022AC21 /* UIView+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Blur.h"; sourceTree = "<group>"; };
+		58B50FFA197CBDC50022AC21 /* UIView+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Blur.m"; sourceTree = "<group>"; };
+		58B50FFC197CC4530022AC21 /* InfoOutletSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoOutletSettingsVC.h; sourceTree = "<group>"; };
+		58B50FFD197CC4530022AC21 /* InfoOutletSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoOutletSettingsVC.m; sourceTree = "<group>"; };
+		58B51000197CC8D90022AC21 /* tap-professional.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-professional.aif"; sourceTree = "<group>"; };
+		58B51001197CC8D90022AC21 /* tap-resonant.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-resonant.aif"; sourceTree = "<group>"; };
+		58B51004197CC9A70022AC21 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A7C59611D0F44A63ABEA7D04 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58494E5D197A1D8A007105DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B51005197CC9A70022AC21 /* AVFoundation.framework in Frameworks */,
+				585DEF55197B739E0041E0A2 /* iAd.framework in Frameworks */,
+				58494E66197A1D8A007105DB /* CoreGraphics.framework in Frameworks */,
+				58494E68197A1D8A007105DB /* UIKit.framework in Frameworks */,
+				58494E64197A1D8A007105DB /* Foundation.framework in Frameworks */,
+				79CD28604A554B8BA434AF4D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58494E7E197A1D8A007105DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58494E83197A1D8A007105DB /* XCTest.framework in Frameworks */,
+				58494E85197A1D8A007105DB /* UIKit.framework in Frameworks */,
+				58494E84197A1D8A007105DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58494E57197A1D8A007105DB = {
+			isa = PBXGroup;
+			children = (
+				58494E69197A1D8A007105DB /* PowerStrip */,
+				58494E88197A1D8A007105DB /* PowerStripTests */,
+				58494E62197A1D8A007105DB /* Frameworks */,
+				58494E61197A1D8A007105DB /* Products */,
+				A7C59611D0F44A63ABEA7D04 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		58494E61197A1D8A007105DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58494E60197A1D8A007105DB /* PowerStrip.app */,
+				58494E81197A1D8A007105DB /* PowerStripTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58494E62197A1D8A007105DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B51004197CC9A70022AC21 /* AVFoundation.framework */,
+				585DEF54197B739E0041E0A2 /* iAd.framework */,
+				58494E63197A1D8A007105DB /* Foundation.framework */,
+				58494E65197A1D8A007105DB /* CoreGraphics.framework */,
+				58494E67197A1D8A007105DB /* UIKit.framework */,
+				58494E82197A1D8A007105DB /* XCTest.framework */,
+				0D2E9E951BD44DA6A50CB471 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58494E69197A1D8A007105DB /* PowerStrip */ = {
+			isa = PBXGroup;
+			children = (
+				58B50FFF197CC8A60022AC21 /* Sounds */,
+				58B50FF8197CBD8D0022AC21 /* Helpers */,
+				58494E72197A1D8A007105DB /* AppDelegate.h */,
+				58494E73197A1D8A007105DB /* AppDelegate.m */,
+				58B50FF5197CA39B0022AC21 /* CardView.h */,
+				58B50FF6197CA39B0022AC21 /* CardView.m */,
+				585DEF4C197B332F0041E0A2 /* PVController.h */,
+				585DEF4D197B332F0041E0A2 /* PVController.m */,
+				585DEF51197B3CFD0041E0A2 /* SwitchesViewController.h */,
+				585DEF52197B3CFD0041E0A2 /* SwitchesViewController.m */,
+				58B50FEF197B96890022AC21 /* InfoTableVC.h */,
+				58B50FF0197B96890022AC21 /* InfoTableVC.m */,
+				58B50FEA197B90F40022AC21 /* InfoCell.h */,
+				58B50FEB197B90F40022AC21 /* InfoCell.m */,
+				58B50FFC197CC4530022AC21 /* InfoOutletSettingsVC.h */,
+				58B50FFD197CC4530022AC21 /* InfoOutletSettingsVC.m */,
+				585DEF4F197B3A0A0041E0A2 /* Images.xcassets */,
+				58494E6A197A1D8A007105DB /* Supporting Files */,
+			);
+			path = PowerStrip;
+			sourceTree = "<group>";
+		};
+		58494E6A197A1D8A007105DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5837DC20197CCEAF009082A8 /* Main.storyboard */,
+				58B50FEC197B90F40022AC21 /* InfoCell.xib */,
+				58494E6B197A1D8A007105DB /* PowerStrip-Info.plist */,
+				5837DC22197CCEC9009082A8 /* InfoPlist.strings */,
+				58494E6F197A1D8A007105DB /* main.m */,
+				58494E71197A1D8A007105DB /* PowerStrip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58494E88197A1D8A007105DB /* PowerStripTests */ = {
+			isa = PBXGroup;
+			children = (
+				58494E8E197A1D8A007105DB /* PowerStripTests.m */,
+				58494E89197A1D8A007105DB /* Supporting Files */,
+			);
+			path = PowerStripTests;
+			sourceTree = "<group>";
+		};
+		58494E89197A1D8A007105DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				58494E8A197A1D8A007105DB /* PowerStripTests-Info.plist */,
+				58494E8B197A1D8A007105DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58B50FF8197CBD8D0022AC21 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				58B50FF9197CBDC50022AC21 /* UIView+Blur.h */,
+				58B50FFA197CBDC50022AC21 /* UIView+Blur.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		58B50FFF197CC8A60022AC21 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5837DC24197CCFDF009082A8 /* tap-mellow.aif */,
+				5837DC25197CCFDF009082A8 /* tap-metallic.aif */,
+				58B51000197CC8D90022AC21 /* tap-professional.aif */,
+				58B51001197CC8D90022AC21 /* tap-resonant.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58494E5F197A1D8A007105DB /* PowerStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58494E92197A1D8A007105DB /* Build configuration list for PBXNativeTarget "PowerStrip" */;
+			buildPhases = (
+				8622B868797C47B28A03A614 /* Check Pods Manifest.lock */,
+				58494E5C197A1D8A007105DB /* Sources */,
+				58494E5D197A1D8A007105DB /* Frameworks */,
+				58494E5E197A1D8A007105DB /* Resources */,
+				7E09F75A24F442B28289371C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerStrip;
+			productName = PowerStrip;
+			productReference = 58494E60197A1D8A007105DB /* PowerStrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58494E80197A1D8A007105DB /* PowerStripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58494E95197A1D8A007105DB /* Build configuration list for PBXNativeTarget "PowerStripTests" */;
+			buildPhases = (
+				58494E7D197A1D8A007105DB /* Sources */,
+				58494E7E197A1D8A007105DB /* Frameworks */,
+				58494E7F197A1D8A007105DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58494E87197A1D8A007105DB /* PBXTargetDependency */,
+			);
+			name = PowerStripTests;
+			productName = PowerStripTests;
+			productReference = 58494E81197A1D8A007105DB /* PowerStripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58494E58197A1D8A007105DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Dustinschie;
+				TargetAttributes = {
+					58494E80197A1D8A007105DB = {
+						TestTargetID = 58494E5F197A1D8A007105DB;
+					};
+				};
+			};
+			buildConfigurationList = 58494E5B197A1D8A007105DB /* Build configuration list for PBXProject "PowerStrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58494E57197A1D8A007105DB;
+			productRefGroup = 58494E61197A1D8A007105DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58494E5F197A1D8A007105DB /* PowerStrip */,
+				58494E80197A1D8A007105DB /* PowerStripTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58494E5E197A1D8A007105DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5837DC23197CCEC9009082A8 /* InfoPlist.strings in Resources */,
+				5837DC21197CCEAF009082A8 /* Main.storyboard in Resources */,
+				58B51003197CC8D90022AC21 /* tap-resonant.aif in Resources */,
+				5837DC27197CCFDF009082A8 /* tap-metallic.aif in Resources */,
+				58B51002197CC8D90022AC21 /* tap-professional.aif in Resources */,
+				5837DC26197CCFDF009082A8 /* tap-mellow.aif in Resources */,
+				585DEF50197B3A0A0041E0A2 /* Images.xcassets in Resources */,
+				58B50FEE197B90F40022AC21 /* InfoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58494E7F197A1D8A007105DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58494E8D197A1D8A007105DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E09F75A24F442B28289371C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8622B868797C47B28A03A614 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58494E5C197A1D8A007105DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B50FFE197CC4530022AC21 /* InfoOutletSettingsVC.m in Sources */,
+				585DEF53197B3CFD0041E0A2 /* SwitchesViewController.m in Sources */,
+				585DEF4E197B332F0041E0A2 /* PVController.m in Sources */,
+				58B50FF7197CA39B0022AC21 /* CardView.m in Sources */,
+				58B50FFB197CBDC50022AC21 /* UIView+Blur.m in Sources */,
+				58494E74197A1D8A007105DB /* AppDelegate.m in Sources */,
+				58B50FF1197B96890022AC21 /* InfoTableVC.m in Sources */,
+				58494E70197A1D8A007105DB /* main.m in Sources */,
+				58B50FED197B90F40022AC21 /* InfoCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58494E7D197A1D8A007105DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58494E8F197A1D8A007105DB /* PowerStripTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58494E87197A1D8A007105DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58494E5F197A1D8A007105DB /* PowerStrip */;
+			targetProxy = 58494E86197A1D8A007105DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58494E8B197A1D8A007105DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58494E8C197A1D8A007105DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58494E90197A1D8A007105DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58494E91197A1D8A007105DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58494E93197A1D8A007105DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C59611D0F44A63ABEA7D04 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerStrip/PowerStrip-Prefix.pch";
+				INFOPLIST_FILE = "PowerStrip/PowerStrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		58494E94197A1D8A007105DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C59611D0F44A63ABEA7D04 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerStrip/PowerStrip-Prefix.pch";
+				INFOPLIST_FILE = "PowerStrip/PowerStrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		58494E96197A1D8A007105DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerStrip.app/PowerStrip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerStrip/PowerStrip-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PowerStripTests/PowerStripTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		58494E97197A1D8A007105DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PowerStrip.app/PowerStrip";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PowerStrip/PowerStrip-Prefix.pch";
+				INFOPLIST_FILE = "PowerStripTests/PowerStripTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58494E5B197A1D8A007105DB /* Build configuration list for PBXProject "PowerStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58494E90197A1D8A007105DB /* Debug */,
+				58494E91197A1D8A007105DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58494E92197A1D8A007105DB /* Build configuration list for PBXNativeTarget "PowerStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58494E93197A1D8A007105DB /* Debug */,
+				58494E94197A1D8A007105DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58494E95197A1D8A007105DB /* Build configuration list for PBXNativeTarget "PowerStripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58494E96197A1D8A007105DB /* Debug */,
+				58494E97197A1D8A007105DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58494E58197A1D8A007105DB /* Project object */;
+}
