@@ -11,6 +11,12 @@
 		5837DC23197CCEC9009082A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC22197CCEC9009082A8 /* InfoPlist.strings */; };
 		5837DC26197CCFDF009082A8 /* tap-mellow.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC24197CCFDF009082A8 /* tap-mellow.aif */; };
 		5837DC27197CCFDF009082A8 /* tap-metallic.aif in Resources */ = {isa = PBXBuildFile; fileRef = 5837DC25197CCFDF009082A8 /* tap-metallic.aif */; };
+		5837DC29197D94C3009082A8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5837DC28197D94C3009082A8 /* CoreBluetooth.framework */; };
+		5837DC32197D94F6009082A8 /* NSString+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837DC2B197D94F6009082A8 /* NSString+hex.m */; };
+		5837DC33197D94F6009082A8 /* NSData+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837DC2D197D94F6009082A8 /* NSData+hex.m */; };
+		5837DC34197D94F6009082A8 /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837DC2F197D94F6009082A8 /* CBUUID+StringExtraction.m */; };
+		5837DC35197D94F6009082A8 /* UITextView+lineCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837DC31197D94F6009082A8 /* UITextView+lineCount.m */; };
+		5837DC39197D97B6009082A8 /* UARTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5837DC38197D97B6009082A8 /* UARTPeripheral.m */; };
 		58494E64197A1D8A007105DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E63197A1D8A007105DB /* Foundation.framework */; };
 		58494E66197A1D8A007105DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E65197A1D8A007105DB /* CoreGraphics.framework */; };
 		58494E68197A1D8A007105DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58494E67197A1D8A007105DB /* UIKit.framework */; };
@@ -24,7 +30,6 @@
 		585DEF4E197B332F0041E0A2 /* PVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585DEF4D197B332F0041E0A2 /* PVController.m */; };
 		585DEF50197B3A0A0041E0A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585DEF4F197B3A0A0041E0A2 /* Images.xcassets */; };
 		585DEF53197B3CFD0041E0A2 /* SwitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585DEF52197B3CFD0041E0A2 /* SwitchesViewController.m */; };
-		585DEF55197B739E0041E0A2 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585DEF54197B739E0041E0A2 /* iAd.framework */; };
 		58B50FED197B90F40022AC21 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FEB197B90F40022AC21 /* InfoCell.m */; };
 		58B50FEE197B90F40022AC21 /* InfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B50FEC197B90F40022AC21 /* InfoCell.xib */; };
 		58B50FF1197B96890022AC21 /* InfoTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B50FF0197B96890022AC21 /* InfoTableVC.m */; };
@@ -53,6 +58,17 @@
 		5837DC22197CCEC9009082A8 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		5837DC24197CCFDF009082A8 /* tap-mellow.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-mellow.aif"; sourceTree = "<group>"; };
 		5837DC25197CCFDF009082A8 /* tap-metallic.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap-metallic.aif"; sourceTree = "<group>"; };
+		5837DC28197D94C3009082A8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5837DC2A197D94F6009082A8 /* NSString+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+hex.h"; sourceTree = "<group>"; };
+		5837DC2B197D94F6009082A8 /* NSString+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+hex.m"; sourceTree = "<group>"; };
+		5837DC2C197D94F6009082A8 /* NSData+hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+hex.h"; sourceTree = "<group>"; };
+		5837DC2D197D94F6009082A8 /* NSData+hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+hex.m"; sourceTree = "<group>"; };
+		5837DC2E197D94F6009082A8 /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		5837DC2F197D94F6009082A8 /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
+		5837DC30197D94F6009082A8 /* UITextView+lineCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+lineCount.h"; sourceTree = "<group>"; };
+		5837DC31197D94F6009082A8 /* UITextView+lineCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+lineCount.m"; sourceTree = "<group>"; };
+		5837DC37197D97B6009082A8 /* UARTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARTPeripheral.h; sourceTree = "<group>"; };
+		5837DC38197D97B6009082A8 /* UARTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARTPeripheral.m; sourceTree = "<group>"; };
 		58494E60197A1D8A007105DB /* PowerStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58494E63197A1D8A007105DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58494E65197A1D8A007105DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,8 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5837DC29197D94C3009082A8 /* CoreBluetooth.framework in Frameworks */,
 				58B51005197CC9A70022AC21 /* AVFoundation.framework in Frameworks */,
-				585DEF55197B739E0041E0A2 /* iAd.framework in Frameworks */,
 				58494E66197A1D8A007105DB /* CoreGraphics.framework in Frameworks */,
 				58494E68197A1D8A007105DB /* UIKit.framework in Frameworks */,
 				58494E64197A1D8A007105DB /* Foundation.framework in Frameworks */,
@@ -117,6 +133,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5837DC36197D9513009082A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5837DC20197CCEAF009082A8 /* Main.storyboard */,
+				58B50FEC197B90F40022AC21 /* InfoCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 		58494E57197A1D8A007105DB = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +165,7 @@
 		58494E62197A1D8A007105DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5837DC28197D94C3009082A8 /* CoreBluetooth.framework */,
 				58B51004197CC9A70022AC21 /* AVFoundation.framework */,
 				585DEF54197B739E0041E0A2 /* iAd.framework */,
 				58494E63197A1D8A007105DB /* Foundation.framework */,
@@ -154,8 +180,8 @@
 		58494E69197A1D8A007105DB /* PowerStrip */ = {
 			isa = PBXGroup;
 			children = (
-				58B50FFF197CC8A60022AC21 /* Sounds */,
-				58B50FF8197CBD8D0022AC21 /* Helpers */,
+				5837DC36197D9513009082A8 /* UI */,
+				58B50FF8197CBD8D0022AC21 /* Categories */,
 				58494E72197A1D8A007105DB /* AppDelegate.h */,
 				58494E73197A1D8A007105DB /* AppDelegate.m */,
 				58B50FF5197CA39B0022AC21 /* CardView.h */,
@@ -164,13 +190,14 @@
 				585DEF4D197B332F0041E0A2 /* PVController.m */,
 				585DEF51197B3CFD0041E0A2 /* SwitchesViewController.h */,
 				585DEF52197B3CFD0041E0A2 /* SwitchesViewController.m */,
+				5837DC37197D97B6009082A8 /* UARTPeripheral.h */,
+				5837DC38197D97B6009082A8 /* UARTPeripheral.m */,
 				58B50FEF197B96890022AC21 /* InfoTableVC.h */,
 				58B50FF0197B96890022AC21 /* InfoTableVC.m */,
 				58B50FEA197B90F40022AC21 /* InfoCell.h */,
 				58B50FEB197B90F40022AC21 /* InfoCell.m */,
 				58B50FFC197CC4530022AC21 /* InfoOutletSettingsVC.h */,
 				58B50FFD197CC4530022AC21 /* InfoOutletSettingsVC.m */,
-				585DEF4F197B3A0A0041E0A2 /* Images.xcassets */,
 				58494E6A197A1D8A007105DB /* Supporting Files */,
 			);
 			path = PowerStrip;
@@ -179,8 +206,8 @@
 		58494E6A197A1D8A007105DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5837DC20197CCEAF009082A8 /* Main.storyboard */,
-				58B50FEC197B90F40022AC21 /* InfoCell.xib */,
+				585DEF4F197B3A0A0041E0A2 /* Images.xcassets */,
+				58B50FFF197CC8A60022AC21 /* Sounds */,
 				58494E6B197A1D8A007105DB /* PowerStrip-Info.plist */,
 				5837DC22197CCEC9009082A8 /* InfoPlist.strings */,
 				58494E6F197A1D8A007105DB /* main.m */,
@@ -207,13 +234,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		58B50FF8197CBD8D0022AC21 /* Helpers */ = {
+		58B50FF8197CBD8D0022AC21 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				5837DC2A197D94F6009082A8 /* NSString+hex.h */,
+				5837DC2B197D94F6009082A8 /* NSString+hex.m */,
+				5837DC2C197D94F6009082A8 /* NSData+hex.h */,
+				5837DC2D197D94F6009082A8 /* NSData+hex.m */,
+				5837DC2E197D94F6009082A8 /* CBUUID+StringExtraction.h */,
+				5837DC2F197D94F6009082A8 /* CBUUID+StringExtraction.m */,
+				5837DC30197D94F6009082A8 /* UITextView+lineCount.h */,
+				5837DC31197D94F6009082A8 /* UITextView+lineCount.m */,
 				58B50FF9197CBDC50022AC21 /* UIView+Blur.h */,
 				58B50FFA197CBDC50022AC21 /* UIView+Blur.m */,
 			);
-			name = Helpers;
+			name = Categories;
 			sourceTree = "<group>";
 		};
 		58B50FFF197CC8A60022AC21 /* Sounds */ = {
@@ -364,13 +399,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5837DC33197D94F6009082A8 /* NSData+hex.m in Sources */,
+				5837DC39197D97B6009082A8 /* UARTPeripheral.m in Sources */,
 				58B50FFE197CC4530022AC21 /* InfoOutletSettingsVC.m in Sources */,
 				585DEF53197B3CFD0041E0A2 /* SwitchesViewController.m in Sources */,
+				5837DC34197D94F6009082A8 /* CBUUID+StringExtraction.m in Sources */,
 				585DEF4E197B332F0041E0A2 /* PVController.m in Sources */,
+				5837DC35197D94F6009082A8 /* UITextView+lineCount.m in Sources */,
 				58B50FF7197CA39B0022AC21 /* CardView.m in Sources */,
 				58B50FFB197CBDC50022AC21 /* UIView+Blur.m in Sources */,
 				58494E74197A1D8A007105DB /* AppDelegate.m in Sources */,
 				58B50FF1197B96890022AC21 /* InfoTableVC.m in Sources */,
+				5837DC32197D94F6009082A8 /* NSString+hex.m in Sources */,
 				58494E70197A1D8A007105DB /* main.m in Sources */,
 				58B50FED197B90F40022AC21 /* InfoCell.m in Sources */,
 			);

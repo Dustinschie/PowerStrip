@@ -31,7 +31,6 @@
         [[self layer] setMasksToBounds:YES];
         [[self layer] setBorderWidth:2];
         [[self layer] setBorderColor: [[UIColor darkGrayColor] CGColor]];
-        NSLog(@"hello card");
     }
 }
 

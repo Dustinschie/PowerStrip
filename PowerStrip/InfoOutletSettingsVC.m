@@ -26,9 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"settings loaded");
     // Do any additional setup after loading the view.
 }
-
+- (void)viewDidDisappear:(BOOL)animated
+{
+    NSLog(@"settings disappeared");
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
